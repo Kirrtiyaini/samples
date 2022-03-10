@@ -6,7 +6,7 @@ public class Location {
 	private String name;
 	private int locationID;
 	private int description;
-	private int age;
+	
 
 	public String getName() {
 		return name;
@@ -30,14 +30,6 @@ public class Location {
 
 	public void setDescription(int description) {
 		this.description = description;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
 	}
 
 }
